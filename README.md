@@ -27,7 +27,8 @@ npm run dev
     <a>{props.title}</a>
 </Link>
 ```
-### [Express Server](https://github.com/zeit/next.js#custom-server-and-routing)
+### Express Server
+[Custom server](https://github.com/zeit/next.js#custom-server-and-routing)
 
 ### Data fetching in client or server side
 ```
@@ -36,3 +37,14 @@ getInitialProps
 1. first router will be triggered by server side
 (enter in localhost:3000 / localhost:3000/p/33618)
 2. enter link to other pages will be triggered by client side
+
+
+### Stying (css in js)
+using [styled-jsx](https://github.com/zeit/styled-jsx)
+
+### No Effect for Nested Component
+1. style could not transfer 
+
+
+### Deploy via ZEIT
+1. [ZEIT](https://zeit.co) will always use 443 (https default port)
