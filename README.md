@@ -28,3 +28,11 @@ npm run dev
 </Link>
 ```
 ### [Express Server](https://github.com/zeit/next.js#custom-server-and-routing)
+
+### Data fetching in client or server side
+```
+getInitialProps
+```
+1. first router will be triggered by server side
+(enter in localhost:3000 / localhost:3000/p/33618)
+2. enter link to other pages will be triggered by client side
