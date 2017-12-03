@@ -13,3 +13,7 @@ npm run dev
     - record in location/history 
 2. style only apply on <a>, <button>
     - Link only handle router matters
+
+### pages directory is meaningful
+1. like file system
+2. other directories like components can change their name
